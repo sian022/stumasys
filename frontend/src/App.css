@@ -1,0 +1,32 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.app-logo {
+  padding-left: 50px;
+}
+
+.sidebar {
+  display: flex;
+  height: 93vh;
+  float: left;
+  overflow: 'scroll-initial';
+}
+
+.side-container {
+  padding-top: 30px;
+}
+
+.table-row {
+  padding: 40px;
+}
+
+.react-bootstrap-table thead {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  z-index: 2000;
+  color: white;
+}
